@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+body {
+  background-color: #f6f6f6;
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 12pt;
+  color: #000000;
+}
+
+h1 {
+  color: #fefefe;
+}
+
+header {
+  /* background-color: #fefefe; */
+  color: rgba(0, 0, 0, 0.87);
+  /* text-align: center; */
+  /* padding: 5px; */
+  /* width: 80%; */
+  border-radius: 3px;
+}
+
+#container {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  /* background-color: #ffffff; */
+  /* float: left; */
+  /* padding: 5px; */
+  /* margin-left: 10%; */
+  border-radius: 3px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  /* text-align: center; */
+}
+main > div{
+  margin-top: 30px;
+  color: #fefefe;
+  height: 400px;
+  width: 97%;
+  padding: 25px;
+  overflow: hidden;
+  border-radius: 3px;
+  /* text-align: center; */
+}
+
+main div > h4{
+  color: #fefefe;
+  width: 40%;
+  font-size: 16px;
+  font-family: "sourcesansproregular","sourcesansprolocal",sans-serif;
+  line-height: 21px;
+}
+
+.a1 {
+  background: url("https://coolbackgrounds.io/images/backgrounds/index/aqua-d9b59c89.png");
+  padding: 15px;
+  
+}
+nav {
+  display: flex;
+  background: #fefefe;
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 3px;
+  padding: 1em;
+  font-family: sans-serif;
+  /* width: 100%; */
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex: 3;
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: row; /* Change this to 'column' to stack the links */
+    margin-bottom: 1em;
+  }
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  /* padding: 5px; */
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  display: block;
+  width: 100px;
+  margin-left: 15px;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 4px;
+  /* background-color: #ffffff; */
+  text-decoration: none;
+  /* border: 2px solid; */
+  border-radius: 20px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  background-color: #ff4444;
+}
+
+
+
+footer {
+  clear: both;
+  background-color: #fefefe;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  padding: 5px;
+  font-size: 10pt;
+  border-radius: 3px;
+}
+
+footer p a:link,
+footer p a:visited {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+}
