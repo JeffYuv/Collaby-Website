@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <img
-        src="images/CollabyLogo.png"
-        alt="Collaby Logo"
-        width="60px"
-        height="50px"
-      />
-      <h1></h1>
-    </header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
     <nav>
+      <a href="index.html">
+        <img src="images/CollabyLogo.png" alt="Collaby Logo" width="60px" height="50px" />
+      </a>
+      <h4>Collaby</h4>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discover</a></li>
@@ -27,17 +25,77 @@
         <li><a href="status.html">Status</a></li>
       </ul>
     </nav>
-    <main>
-      <p></p>
-    </main>
-    <footer>
-      <p>
-        <a href="index.html">Home</a> | <a href="discover.html">Discover</a> |
-        <a href="mypage.html">My Page</a> |
-        <a href="features.html">Features</a> | <a href="help.html">Help</a> |
-        <a href="aboutus.html">About</a> |
-        <a href="status.html">Status</a>
-      </p>
-    </footer>
-  </body>
+  </header>
+  <main>
+    <div>
+      <img src="images/map.png" alt="" width="70%">
+    </div>
+    <div class="a3 box">
+      <img src="https://www.iconfinder.com/data/icons/top-search/128/_help_lifesaver_support-512.png" width="80px"
+        alt="helpicon">
+      <br>
+      <h3>Welcome to the Help Center</h3>
+      Our Customers are incredibly important to us. For that reason we strive to provide a seamless
+      user
+      experience across all our platforms. Sometimes that means we might need to pitch in and lend you a hand.
+    </div>
+    <div class="grid-help">
+      <div class="box">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-802f8199-5f69-4108-acfc-f9bebcb1f591"></div>
+        <!-- <iframe src='https://deadsimplechat.com/RL5mXw7ba' width='100%' height='300px'></iframe> -->
+      </div>
+      <div class="box">
+        <ul>
+          <h3>FAQ</h3>
+          <li><a href="">How do I make my group page?</a></li>
+          <br>
+          <li><a href="">How do I change my groups name?</a></li>
+          <br>
+          <li><a href="">How can I add admin/mod users?</a></li>
+        </ul>
+      </div>
+  </main>
+  <div class="a3">
+    <h2>Send Us An E-mail</h2>
+    <div id="form-main">
+      <div id="form-div">
+        <form class="form" id="form1">
+
+          <p class="name">
+            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"
+              placeholder="Name" id="name" />
+          </p>
+
+          <p class="email">
+            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email"
+              placeholder="Email" />
+          </p>
+
+          <p class="text">
+            <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment"
+              placeholder="Comment"></textarea>
+          </p>
+
+
+          <div class="submit">
+            <input type="submit" value="SEND" id="button-red" />
+            <div class="ease"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>
+      <a href="index.html">Home</a> | <a href="discover.html">Discover</a> |
+      <a href="mypage.html">My Page</a> |
+      <a href="features.html">Features</a> | <a href="help.html">Help</a> |
+      <a href="aboutus.html">About</a> |
+      <a href="status.html">Status</a>
+    <p>© Copyright Collaby Company 2020 Collaby.com</p>
+    </p>
+  </footer>
+</body>
+
 </html>
