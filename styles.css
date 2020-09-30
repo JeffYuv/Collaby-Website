@@ -66,7 +66,7 @@ main div > p {
 }
 
 .a2 {
-  background: url("images/orange-bkg.jpg");
+  background: #E75519;
   padding: 15px;
   background-repeat: no-repeat;
   font-size: 19px;
@@ -84,11 +84,15 @@ main div > p {
   text-align: center;
 }
 
+.logotxt{
+  color: rgba(0, 0, 0, 0.87);
+}
 
-.a2 > ul {
+.box4 > ul {
   list-style: none;
   width: 95%;
   font-size: 19px;
+  line-height: 35px;
 }
 nav {
   display: flex;
@@ -162,6 +166,51 @@ nav ul li a:hover {
   /* overflow: hidden; */
 }
 
+.box2 {
+  /* color: rgba(0, 0, 0, 0.87); */
+  font-size: 25px;
+  padding: 15px;
+  background: #F7BA00;
+  text-align: center;
+  /* overflow: hidden; */
+}
+
+.box3 {
+  /* color: rgba(0, 0, 0, 0.87); */
+  font-size: 25px;
+  padding: 15px;
+  background: #E75519;
+  text-align: center;
+  /* overflow: hidden; */
+}
+
+.box4{
+  /* color: rgba(0, 0, 0, 0.87); */
+  font-size: 25px;
+  padding: 15px;
+  background: #00BF72;
+  text-align: center;
+  /* overflow: hidden; */
+}
+
+.learnmore{
+  background-color: #ff4444; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.learnmore:hover {
+  font-weight: bolder;
+}
+
 .box > p {
   color: rgba(0, 0, 0, 0.87);
   font-size: 25px;
@@ -196,7 +245,7 @@ nav ul li a:hover {
 }
 
 #form-div {
-	background-color: #ff4444;
+	background-color: #00BF72;
 	padding-left:35px;
 	padding-right:35px;
 	padding-top:35px;
@@ -317,6 +366,28 @@ input:focus, textarea:focus {
 	
 .submit:hover {
 	color: #3498db;
+}
+.flip{
+  transform: rotateY(180deg)
+}
+.stat{
+  width:85%;
+}
+.maint{
+  position: relative;
+  width: 100%;
+  left: 40px;
+}
+td{
+  font-size: 20px;
+}
+marquee{
+  background-color: #00BF72;
+  width:"50%";
+  color: #fefefe;
+  border-radius: 3px;
+  height: 20px;
+  font-weight: bold;
 }
 	
 .ease {
