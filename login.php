@@ -1,27 +1,29 @@
 <?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-  
+
 
   <section class="img">
 
     <div class="box">
       <div class="header">
-        <img src="https://habborator.org/archive/icons/medium/me_rooms_active.gif"/>
-		    <h2>Login</h2>
-	    </div>
+        <img src="images/CollabyLogo.png" alt="Collaby Logo" width="100px" height="90px" />
+        <h2>Login</h2>
+      </div>
       <form method="post" action="login.php">
 
         <?php include('errors.php'); ?>
 
         <div class="input-group">
           <label>Username</label>
-          <input type="text" name="username" >
+          <input type="text" name="username">
         </div>
         <div class="input-group">
           <label>Password</label>
@@ -39,4 +41,5 @@
 
 
 </body>
+
 </html>

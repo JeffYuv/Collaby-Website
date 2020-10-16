@@ -1,22 +1,24 @@
 <?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Registration</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Registration</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-	
-	<section class="img">
+
+  <section class="img">
 
     <div class="box">
       <div class="header">
-        <img src="https://habborator.org/archive/icons/medium/me_rooms_inactive.gif"/>
-		    <h2>Register</h2>
-	    </div>
+        <img src="images/CollabyLogo.png" alt="Collaby Logo" width="100px" height="90px" />
+        <h2>Register</h2>
+      </div>
 
       <form method="post" action="register.php">
-      
+
         <?php include('errors.php'); ?>
 
         <div class="input-group">
@@ -43,11 +45,12 @@
         </p>
       </form>
     </div>
-  
-    
 
-   
+
+
+
   </section>
-	
+
 </body>
+
 </html>

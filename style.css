@@ -4,11 +4,11 @@
 }
 body {
   font-size: 120%;
-  background: #024a94;
+  background: #f6f6f6;
 }
 
 .img {
-  background: url("https://beeimg.com/images/o56891842681.png");
+  background: url("https://www.nicepng.com/png/full/118-1181515_this-is-complete-test-to-social-accounts-abstract.png");
   background-repeat: no-repeat;
   margin: 0px auto;
   width: 100%;
@@ -20,9 +20,9 @@ body {
   width: 30%;
   margin: 0px auto 0px;
   color: white;
-  background: #024a94;
+  background: #024b94ca;
   text-align: center;
-  border: 1px solid #024a94;
+  border: 1px solid #024b94ca;
   border-bottom: none;
   border-radius: 10px 10px 0px 0px;
   padding: 20px;
@@ -31,9 +31,9 @@ form,
 .content {
   width: 30%;
   margin: 0px auto;
-  border: 1px solid #024a94;
+  border: 1px solid #024b94ca;
   padding: 20px;
-  background: #024a94;
+  background: #024b94ca;
   color: white;
   border-radius: 0px 0px 10px 10px;
 }
@@ -41,6 +41,15 @@ form,
 .box {
   position: relative;
   top: 100px;
+}
+
+.box5 {
+  /* color: rgba(0, 0, 0, 0.87); */
+  font-size: 25px;
+  padding: 15px;
+  background: #F7BA00;
+  text-align: end;
+  /* overflow: hidden; */
 }
 .input-group {
   margin: 10px 0px 10px 0px;
@@ -63,7 +72,7 @@ form,
   padding: 10px;
   font-size: 15px;
   color: white;
-  background: #53a8fc;
+  background: #46E9FF;
   border: none;
   border-radius: 5px;
   font-weight: bold;
@@ -72,7 +81,7 @@ form,
   padding: 10px;
   font-size: 15px;
   color: white;
-  background: goldenrod;
+  background:#FF4444;
   border: none;
   border-radius: 5px;
   font-weight: bold;
