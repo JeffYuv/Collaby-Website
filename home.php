@@ -40,6 +40,7 @@ if (isset($_GET['logout'])) {
 				<li><a href="aboutus.html">About</a></li>
 				<li><a href="status.html">Status</a></li>
 			</ul>
+			<a href="home.php"><button class="login login1">Login</button></a>
 		</nav>
 	</header>
 	<main>
@@ -66,15 +67,15 @@ if (isset($_GET['logout'])) {
 		</div>
 	</main>
 	<footer>
-		<p>
-			<a href="index.html">Home</a> | <a href="discover.html">Discover</a> |
-			<a href="mypage.html">My Page</a> |
-			<a href="features.html">Features</a> | <a href="help.html">Help</a> |
-			<a href="aboutus.html">About</a> |
-			<a href="status.html">Status</a>
-			<p>© Copyright Collaby Company 2020 Collaby.com</p>
-		</p>
-	</footer>
+    <p>
+      <a href="index.html">Home</a> | <a href="discover.html">Discover</a> |
+      <a href="mypage.html">My Page</a> |
+      <a href="features.html">Features</a> | <a href="help.html">Help</a> |
+      <a href="aboutus.html">About</a> |
+      <a href="status.html">Status</a>
+    <p>© Copyright Collaby Company 2020 Collaby.com</p>
+    </p>
+  </footer>
 </body>
 
 </html>

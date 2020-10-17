@@ -25,6 +25,31 @@ header {
   width: 100%;
 }
 
+.login {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.login1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #1c8eea;
+}
+
+.login1:hover {
+  background-color: #1c8eea;
+  color: white;
+}
+
 main {
   display: block;
   width: 100%;
@@ -66,7 +91,7 @@ main div > p {
 }
 
 .a2 {
-  background: #E75519;
+  background: #e75519;
   padding: 15px;
   background-repeat: no-repeat;
   font-size: 19px;
@@ -84,7 +109,7 @@ main div > p {
   text-align: center;
 }
 
-.logotxt{
+.logotxt {
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -170,7 +195,7 @@ nav ul li a:hover {
   /* color: rgba(0, 0, 0, 0.87); */
   font-size: 25px;
   padding: 15px;
-  background: #F7BA00;
+  background: #f7ba00;
   text-align: center;
   /* overflow: hidden; */
 }
@@ -179,21 +204,21 @@ nav ul li a:hover {
   /* color: rgba(0, 0, 0, 0.87); */
   font-size: 25px;
   padding: 15px;
-  background: #E75519;
+  background: #e75519;
   text-align: center;
   /* overflow: hidden; */
 }
 
-.box4{
+.box4 {
   /* color: rgba(0, 0, 0, 0.87); */
   font-size: 25px;
   padding: 15px;
-  background: #00BF72;
+  background: #00bf72;
   text-align: center;
   /* overflow: hidden; */
 }
 
-.learnmore{
+.learnmore {
   background-color: #ff4444; /* Green */
   border: none;
   color: white;
@@ -236,185 +261,187 @@ nav ul li a:hover {
 	text-align:center;
 } */
 
-#form-main{
-	width:100%;
-	float:left;
-  padding-top:0px;
+#form-main {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
   margin-left: 50%;
   margin-bottom: 10%;
 }
 
 #form-div {
-	background-color: #00BF72;
-	padding-left:35px;
-	padding-right:35px;
-	padding-top:35px;
-	padding-bottom:50px;
-	width: 450px;
-	float: left;
-	left: 50%;
-	/* position: absolute; */
-  margin-top:30px;
-	margin-left: -260px;
+  background-color: #00bf72;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  /* position: absolute; */
+  margin-top: 30px;
+  margin-left: -260px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }
 
 .feedback-input {
-	color:#3c3c3c;
-	font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-	font-size: 18px;
-	border-radius:10px;
-	line-height: 22px;
-	background-color: #fbfbfb;
-	padding: 13px 13px 13px 54px;
-	margin-bottom: 10px;
-	width:100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
+  color: #3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 10px;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
 }
 
-.feedback-input:focus{
-	background: #fff;
-	box-shadow: 0;
-	border: 3px solid #3498db;
-	color: #3498db;
-	outline: none;
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
   padding: 13px 13px 13px 54px;
 }
 
-.focused{
-	color:#30aed6;
-	border:#30aed6 solid 3px;
+.focused {
+  color: #30aed6;
+  border: #30aed6 solid 3px;
 }
 
 /* Icons ---------------------------------- */
-#name{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#name:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-	background-size: 30px 30px;
-	background-position: 8px 5px;
+#name {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
   background-position: 11px 8px;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
-#email{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#email:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-	background-size: 30px 30px;
+#name:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
   background-position: 11px 8px;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
-#comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
+#email {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#comment {
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
 }
 
 textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
 }
 
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-	background-color:white;
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  background-color: white;
 }
 
-#button-red{
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-	float:left;
-	width: 100%;
-	border: #fbfbfb solid 4px;
-	cursor:pointer;
-	background-color: #3498db;
-	color:white;
-	font-size:24px;
-	padding-top:22px;
-	padding-bottom:22px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+#button-red {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  float: left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
 }
 
-#button-blue:hover{
-	background-color: rgba(0,0,0,0);
-	color: #0493bd;
+#button-blue:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #0493bd;
 }
-	
+
 .submit:hover {
-	color: #3498db;
+  color: #3498db;
 }
-.flip{
-  transform: rotateY(180deg)
+.flip {
+  transform: rotateY(180deg);
 }
-.stat{
-  width:85%;
+.stat {
+  width: 85%;
 }
-.maint{
+.maint {
   position: relative;
   width: 100%;
   left: 40px;
 }
-td{
+td {
   font-size: 20px;
 }
-marquee{
-  background-color: #00BF72;
-  width:"50%";
+marquee {
+  background-color: #00bf72;
+  width: "50%";
   color: #fefefe;
   border-radius: 3px;
   height: 20px;
   font-weight: bold;
 }
-	
+
 .ease {
-	width: 0px;
-	height: 74px;
-	background-color: #fbfbfb;
-	-webkit-transition: .3s ease;
-	-moz-transition: .3s ease;
-	-o-transition: .3s ease;
-	-ms-transition: .3s ease;
-	transition: .3s ease;
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
-.submit:hover .ease{
-  width:100%;
-  background-color:white;
+.submit:hover .ease {
+  width: 100%;
+  background-color: white;
 }
 
 @media only screen and (max-width: 580px) {
-	#form-div{
-		left: 3%;
-		margin-right: 3%;
-		width: 88%;
-		margin-left: 0;
-		padding-left: 3%;
-		padding-right: 3%;
-	}
+  #form-div {
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
 }
 
 footer {
