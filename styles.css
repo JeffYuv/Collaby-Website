@@ -12,6 +12,11 @@ h1 {
   color: #fefefe;
 }
 
+.logotitle{
+  margin: 21.28px 0px;
+}
+
+
 header {
   /* background-color: #fefefe; */
   color: rgba(0, 0, 0, 0.87);
