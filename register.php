@@ -29,8 +29,23 @@
     </nav>
   </header>
 
-  <section class="img">
+  <script>
+    function myFunction(){
+      var inpObj = document.getElementById("id1").value;
 
+      if(inpObj.length < 8){
+        document.getElementById("passcode").innerHTML = "To Short, Enter 8-15 Characters For Each Field Below."
+      }
+      else if(inpObj.length > 15){
+        document.getElementById("passcode").innerHTML = "To Long, Enter 8-15 Characters For Each Field Below. "
+      }
+      else{
+        document.getElementById("passcode").innerHTML = "Passcode Valid";
+      }
+    }
+  </script>
+
+  <section class="img">
     <div class="formlog">
       <div class="header">
         <img src="images/CollabyLogo.png" alt="Collaby Logo" width="100px" height="90px" />
@@ -40,26 +55,28 @@
       <form method="post" action="register.php">
 
         <?php include('errors.php'); ?>
-
+        <p id="passcode" style="color:red"></p>
         <div class="input-group">
           <label>Username</label>
-          <input type="text" name="username" value="<?php echo $username; ?>">
+          <input id="id1" type="text" name="username" value="<?php echo $username; ?>" required>
         </div>
         <div class="input-group">
           <label>Email</label>
-          <input type="email" name="email" value="<?php echo $email; ?>">
+          <input type="email" name="email" value="<?php echo $email; ?>" required>
         </div>
         <div class="input-group">
           <label>Password</label>
-          <input type="password" name="password_1">
+          <input id="id1" type="password" name="password_1" required>
         </div>
         <div class="input-group">
           <label>Confirm password</label>
-          <input type="password" name="password_2">
+          <input id="id1" type="password" name="password_2" required>
         </div>
         <div class="input-group">
-          <button type="submit" class="btn" name="reg_user">Register</button>
+          <button onclick="myFunction()" type="submit" class="btn" name="reg_user">Register</button>
         </div>
+        <input type="checkbox">
+        <label> I Want Special Offers Emailed To Me</label><br><br>
         <p>
           Already a member? <a class="btn2" href="login.php">Sign in</a>
         </p>
