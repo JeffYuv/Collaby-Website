@@ -1,42 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Collaby - Discover</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="index.html">
-          <img src="images/CollabyLogo.png" alt="Collaby Logo" width="60px" height="50px" />
-        </a>
-        <h4>Collaby</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="discover.html">Discover</a></li>
-          <li><a href="home.php">My Page</a></li>
-          <li><a href="features.html">Features</a></li>
-          <li><a href="help.html">Help</a></li>
-          <li><a href="aboutus.html">About</a></li>
-          <li><a href="status.html">Status</a></li>
-        </ul>
-        <a href="home.php"><button class="login login1">Login</button></a>
-      </nav>
-    </header>
-    <main>
-      <p></p>
-    </main>
-    <footer>
-      <p>
-        <a href="index.html">Home</a> | <a href="discover.html">Discover</a> |
-        <a href="mypage.html">My Page</a> |
-        <a href="features.html">Features</a> | <a href="help.html">Help</a> |
-        <a href="aboutus.html">About</a> |
-        <a href="status.html">Status</a>
-      <p>© Copyright Collaby Company 2020 Collaby.com</p>
-      </p>
-    </footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collaby - Discover</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">
+        <img src="images/CollabyLogo.png" alt="Collaby Logo" width="60px" height="50px" />
+      </a>
+      <h4>Collaby</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="home.php">My Page</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="status.html">Status</a></li>
+      </ul>
+      <a href="home.php"><button class="login login1">Login</button></a>
+    </nav>
+  </header>
+  <main>
+    <img src="https://media.istockphoto.com/vectors/working-at-home-coworking-space-concept-illustration-young-people-man-vector-id1144176152?k=6&m=1144176152&s=612x612&w=0&h=tU6lEDxq6BhMr77DBMSHSqHoUwRp9FjuUU-ucW_viIU=" alt="">
+    <div class="container">
+      <h1 class="heading-primary">Discover Other People's Collaby Pages!</h1>
+      <div class="accordion">
+        <dl>
+          <dt>
+            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1"
+              class="accordion-title accordionTitle js-accordionTrigger">Featured Pages</a>
+          </dt>
+          <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+            <a href="">Beta Testers United</a>
+            <a href="">Go Footballers</a>
+            <a href="">Shoes 4 Life</a>
+            <a href="">United Gamersx</a>
+          </dd>
+          <dt>
+            <a href="#accordion2" aria-expanded="false" aria-controls="accordion2"
+              class="accordion-title accordionTitle js-accordionTrigger">
+              Newest Pages</a>
+          </dt>
+          <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+            <ul>
+              <a href="">Basketball Buds</a>
+              <a href="">Anime Club</a>
+              <a href="">Airplane Watchers</a>
+              <a href="">Memes Page</a>
+            </ul>
+          </dd>
+          <dt>
+            <a href="#accordion3" aria-expanded="false" aria-controls="accordion3"
+              class="accordion-title accordionTitle js-accordionTrigger">
+              Most Visited Pages
+            </a>
+          </dt>
+          <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+            <a href="">Trolls Bros</a>
+            <a href="">Girls and Nails</a>
+            <a href="">Car Lovers</a>
+            <a href="">PC Repair Teams</a>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    
+  </main>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Lato';
+    }
+
+    .heading-primary {
+      font-size: 2em;
+      padding: 2em;
+      text-align: center;
+      color: #000;
+    }
+
+    .accordion dl,
+    .accordion-list {
+      border: 1px solid #ddd;
+    }
+
+    .accordion dl:after,
+    .accordion-list:after {
+      content: "";
+      display: block;
+      height: 1em;
+      width: 100%;
+      background-color: #46E9FF;
+    }
+
+    .accordion dd,
+    .accordion__panel {
+      background-color: #eee;
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+
+    .accordion p {
+      padding: 1em 2em 1em 2em;
+      height: 1000px;
+    }
+
+    .accordion {
+      position: relative;
+      background-color: #eee;
+      color: #000;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2em 0 2em 0;
+      height: 2000px;
+    }
+
+    .accordionTitle,
+    .accordion__Heading {
+      background-color: #46E9FF;
+      text-align: center;
+      font-weight: 700;
+      padding: 2em;
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      -webkit-transition: background-color 0.5s ease-in-out;
+      transition: background-color 0.5s ease-in-out;
+      border-bottom: 1px solid #46E9FF;
+    }
+
+    .accordionTitle:before,
+    .accordion__Heading:before {
+      content: "+";
+      font-size: 1.5em;
+      line-height: 0.5em;
+      float: left;
+      -webkit-transition: -webkit-transform 0.3s ease-in-out;
+      transition: -webkit-transform 0.3s ease-in-out;
+      transition: transform 0.3s ease-in-out;
+      transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    }
+
+    .accordionTitle:hover,
+    .accordion__Heading:hover {
+      background-color: #46E9FF;
+    }
+
+    .accordionTitleActive,
+    .accordionTitle.is-expanded {
+      background-color: #46E9FF;
+    }
+
+    .accordionTitleActive:before,
+    .accordionTitle.is-expanded:before {
+      -webkit-transform: rotate(-225deg);
+      transform: rotate(-225deg);
+    }
+
+    .accordionItem {
+      height: auto;
+      overflow: hidden;
+      max-height: 50em;
+      -webkit-transition: max-height 1s;
+      transition: max-height 1s;
+    }
+
+    @media screen and (min-width: 48em) {
+      .accordionItem {
+        max-height: 15em;
+        -webkit-transition: max-height 0.5s;
+        transition: max-height 0.5s;
+      }
+    }
+
+    .accordionItem.is-collapsed {
+      max-height: 0;
+    }
+
+    .no-js .accordionItem.is-collapsed {
+      max-height: auto;
+    }
+
+    .animateIn {
+      -webkit-animation: accordionIn 0.45s normal ease-in-out both 1;
+      animation: accordionIn 0.45s normal ease-in-out both 1;
+    }
+
+    .animateOut {
+      -webkit-animation: accordionOut 0.45s alternate ease-in-out both 1;
+      animation: accordionOut 0.45s alternate ease-in-out both 1;
+    }
+
+    @-webkit-keyframes accordionIn {
+      0% {
+        opacity: 0;
+        -webkit-transform: scale(0.9) rotateX(-60deg);
+        transform: scale(0.9) rotateX(-60deg);
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+      }
+
+      100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+
+    @keyframes accordionIn {
+      0% {
+        opacity: 0;
+        -webkit-transform: scale(0.9) rotateX(-60deg);
+        transform: scale(0.9) rotateX(-60deg);
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+      }
+
+      100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+
+    @-webkit-keyframes accordionOut {
+      0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+
+      100% {
+        opacity: 0;
+        -webkit-transform: scale(0.9) rotateX(-60deg);
+        transform: scale(0.9) rotateX(-60deg);
+      }
+    }
+
+    @keyframes accordionOut {
+      0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+
+      100% {
+        opacity: 0;
+        -webkit-transform: scale(0.9) rotateX(-60deg);
+        transform: scale(0.9) rotateX(-60deg);
+      }
+    }
+  </style>
+  <script>
+    //Make the accordian menu function. (open/close)
+    (function () {
+      var d = document,
+        accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
+        setAria,
+        setAccordionAria,
+        switchAccordion,
+        touchSupported = ('ontouchstart' in window),
+        pointerSupported = ('pointerdown' in window);
+
+      skipClickDelay = function (e) {
+        e.preventDefault();
+        e.target.click();
+      }
+
+      setAriaAttr = function (el, ariaType, newProperty) {
+        el.setAttribute(ariaType, newProperty);
+      };
+      setAccordionAria = function (el1, el2, expanded) {
+        switch (expanded) {
+          case "true":
+            setAriaAttr(el1, 'aria-expanded', 'true');
+            setAriaAttr(el2, 'aria-hidden', 'false');
+            break;
+          case "false":
+            setAriaAttr(el1, 'aria-expanded', 'false');
+            setAriaAttr(el2, 'aria-hidden', 'true');
+            break;
+          default:
+            break;
+        }
+      };
+      //function
+      switchAccordion = function (e) {
+        console.log("triggered");
+        e.preventDefault();
+        var thisAnswer = e.target.parentNode.nextElementSibling;
+        var thisQuestion = e.target;
+        if (thisAnswer.classList.contains('is-collapsed')) {
+          setAccordionAria(thisQuestion, thisAnswer, 'true');
+        } else {
+          setAccordionAria(thisQuestion, thisAnswer, 'false');
+        }
+        thisQuestion.classList.toggle('is-collapsed');
+        thisQuestion.classList.toggle('is-expanded');
+        thisAnswer.classList.toggle('is-collapsed');
+        thisAnswer.classList.toggle('is-expanded');
+
+        thisAnswer.classList.toggle('animateIn');
+      };
+      for (var i = 0, len = accordionToggles.length; i < len; i++) {
+        if (touchSupported) {
+          accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
+        }
+        if (pointerSupported) {
+          accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
+        }
+        accordionToggles[i].addEventListener('click', switchAccordion, false);
+      }
+    })();
+  </script>
+  <footer>
+    <p>
+      <a href="index.html">Home</a> | <a href="discover.html">Discover</a> |
+      <a href="mypage.html">My Page</a> |
+      <a href="features.html">Features</a> | <a href="help.html">Help</a> |
+      <a href="aboutus.html">About</a> |
+      <a href="status.html">Status</a>
+    <p>© Copyright Collaby Company 2020 Collaby.com</p>
+  </footer>
+</body>
+
 </html>

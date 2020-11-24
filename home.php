@@ -50,7 +50,7 @@ if (isset($_GET['logout'])) {
 	</header>
 	<main>
 		<div class="box5">
-			<h2>My Page</h2>
+			<h2>The Chill Squad</h2>
 			<!-- logged in user information -->
 			<?php if (isset($_SESSION['username'])) : ?>
 				<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
@@ -92,7 +92,7 @@ if (isset($_GET['logout'])) {
 		}
 
 		.img {
-			background: url("https://www.w3schools.com/w3css/img_forest.jpg");
+			background: url("https://www.brandcrowd.com/gallery/brands/pictures/picture15174993512825.png");
 			background-repeat: no-repeat;
 		}
 	</style>
@@ -131,9 +131,20 @@ if (isset($_GET['logout'])) {
 			background-color: #2196F3;
 			color: #fff;
 		}
+    .remind{
+      width: 50%;
+    }
+    .red{
+      background: #d62828;
+      color: white;
+    }
+    
+    .blue{
+      background: #0077b6;
+      color: white;
+    }
 	</style>
-	<h1>Collaby</h1>
-	<h2>*The Chill Squad*</h2>
+	<h2>The Chill Squad</h2>
 
 	<p>Welcome! to our the Collaby page, we mostly post about our favorite music, topics and hobbies.</p>
 
@@ -144,12 +155,17 @@ if (isset($_GET['logout'])) {
 		</iframe>
 	</div>
 
-	<div class="resizable draggable" class="ui-widget-content">
-		<h3 class="ui-widget-header">Resizable</h3>
+	<div class="resizable draggable remind" class="ui-widget-content">
+		<h3 class="red ui-widget-header">Group Reminders</h3>
+    <ul>
+      <li> 1. Memeber registration opens soon!</li>
+      <li> 2. Group pictures at Northland Park Friday 12th</li>
+      <li> 3. Cars and Coffee Meet Up Sat 28th</li>
+    </ul>
 	</div>
 
 	<div class="resizable draggable img" class="ui-widget-content">
-		<h3 class="ui-widget-header">Nature</h3>
+		<h3 class="blue ui-widget-header">Our New Logo</h3>
 	</div>
 
 
