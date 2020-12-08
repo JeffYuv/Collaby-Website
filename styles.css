@@ -449,6 +449,54 @@ marquee {
   }
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrap{
+  margin-left: 110px;
+  margin-bottom: 200px;
+}
+
+.header1{
+  color: #000000;
+}
+
+#card-lists {
+  font-family: arial;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#card-lists .card {
+  width: 19.7368%;
+  border: 1px solid #ccc;
+  display: flex;
+  margin-left: 1.75438%;
+  overflow: hidden;
+}
+#card-lists .card:first-child {
+  margin-left: 0;
+}
+#card-lists .card figure {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+#card-lists .card figure img {
+  width: 100%;
+  height: auto;
+}
+#card-lists .card figure figcaption {
+  padding: 10px;
+  margin: 0;
+  display: block;
+  color: #000000;
+}
+
 footer {
   clear: both;
   background-color: #fefefe;
